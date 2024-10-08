@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height for the body */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+main {
+    width: 100%;         /* Use full width of the screen */
+    max-width: 1200px;   /* Maximum width for larger screens */
+    min-width: 300px;    /* Minimum width for smaller screens */
+    height: 80vh;        /* Set height to 80% of the viewport height */
+    min-height: 400px;   /* Minimum height for smaller screens */
+    margin: 0 auto;      /* Center the main content */
+    padding: 20px;       /* Add some padding */
+    background-color: white; /* White background for main content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow-y: auto;    /* Allow vertical scrolling if content exceeds the height */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #000; /* Black text for the heading */
+}
+
+.container {
+    background-color: #fff; /* White background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.custom-search {
+    width: 870px !important;
+}
+
+.center-text {
+    text-align: center !important;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th {
+    background-color: #000; /* Black background for table header */
+    color: white; /* White text for table header */
+    padding: 15px;
+    text-align: left;
+}
+
+.table td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc; /* Light grey border for table rows */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Light grey background for odd rows */
+}
+
+.table-striped tbody tr:hover {
+    background-color: #e0e0e0; /* Darker grey on hover */
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666; /* Medium grey for no results text */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #f8f9fa; /* Light grey background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make the brand name bold */
+}
+
+.nav-link {
+    color: black !important; /* Ensure links are black */
+}
+
+.nav-link:hover {
+    color: grey !important; /* Change color on hover */
+}
+
+.dropdown-menu {
+    background-color: white; /* White background for dropdown */
+}
+
+.custom-dropdown {
+    margin-right: 120px !important;
+}
+
+.dropdown-item {
+    color: black; /* Black text for dropdown items */
+}
+
+.dropdown-item:hover {
+    background-color: #e9ecef; /* Light grey on hover */
+}
+
+.form-control {
+    border: 1px solid grey; /* Grey border for the search input */
+}
+
+.btn-outline-dark {
+    color: black; /* Black text for button */
+    border-color: black; /* Black border */
+}
+
+.btn-outline-dark:hover {
+    background-color: black; /* Dark background on hover */
+    color: white; /* White text on hover */
+}
